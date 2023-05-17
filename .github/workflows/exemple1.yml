@@ -13,7 +13,7 @@ jobs:
       - name: Add to Project
         uses: actions/add-to-project@RELEASE_VERSION
         with:
-          project-url: https://github.com/Mxr1x/M08_PT3/projects/<projectNumber>
+          project-url: https://github.com/Mxr1x/M08_PT3/projects/<2>
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           labeled: bug, needs-triage
           label-operator: OR
